@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appMainBackground"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/logo_attendance" />
+
+    <EditText
+        android:id="@+id/EID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/overlay"
+        android:hint="Emloyee ID"
+        android:inputType="number"
+        android:padding="20dp"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/colorHint"
+        android:textSize="19sp" />
+
+    <EditText
+        android:id="@+id/EPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/overlay"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/colorHint"
+        android:textSize="19sp" />
+
+
+    <com.rey.material.widget.CheckBox
+        android:id="@+id/checkbox"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:text="Remember me"
+
+        android:textColor="@color/textColor"
+        android:textSize="18sp"
+        app:cbd_strokeColor="@color/textColor" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="#04D670"
+        android:padding="17dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+</LinearLayout>

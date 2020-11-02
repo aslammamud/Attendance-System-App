@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appMainBackground"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="800px"
+        android:layout_height="800px"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/logo_attendance" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Smart Attendence"
+        android:textColor="#BFCAC3"
+        android:textSize="45sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:text="Teachers Only"
+        android:textColor="#ffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/welcomeTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:background="#1B272525"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Start Your Experience"
+        android:textAllCaps="false"
+        android:textColor="#009FFF"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
